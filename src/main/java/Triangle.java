@@ -10,6 +10,6 @@ public class Triangle {
         int y = h.nextInt();
         double z = 0.5;
         double result = (double) (z * x * y);
-        System.out.println("PecyJlTat =" + result);
+        System.out.println("PecyJlTat =" + result + "Thx");
     }
 }
