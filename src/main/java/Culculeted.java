@@ -22,7 +22,7 @@ public class Culculeted {
         } else if(p == 1){Scanner s = new Scanner(System.in);
             System.out.println("Введите длину радиуса");
             double x = s.nextDouble();
-            double pi = 3.14;
+            double pi = Math.PI;
             double result = (double) ((x*x)*pi);
             System.out.println("Площадь круга ="+ result);
         } else if(p == 2){
