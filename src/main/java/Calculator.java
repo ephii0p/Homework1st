@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Culculeted {
+public class Calculator {
     public static void main(String[] args) {
         System.out.println("Напишите какая у вас фигура?");
         String[] strings = new String[4];
@@ -8,24 +8,25 @@ public class Culculeted {
         strings[1] = "1.круг";
         strings[2] = "2.треугольник";
         strings[3] = "3.квадрат";
-        for(int i = 0; i<strings.length; i++){
+        for (int i = 0; i < strings.length; i++) {
             System.out.println(strings[i]);
         }
         Scanner j = new Scanner(System.in);
         int p = j.nextInt();
-        if(p == 3){
+        if (p == 3) {
             Scanner s = new Scanner(System.in);
             System.out.println("Введите длину стороны");
             double x = s.nextDouble();
-            double result = x*x;
-            System.out.println("Площадь квадрата ="+ result);
-        } else if(p == 1){Scanner s = new Scanner(System.in);
+            double result = x * x;
+            System.out.println("Площадь квадрата =" + result);
+        } else if (p == 1) {
+            Scanner s = new Scanner(System.in);
             System.out.println("Введите длину радиуса");
             double x = s.nextDouble();
             double pi = Math.PI;
-            double result = (double) ((x*x)*pi);
-            System.out.println("Площадь круга ="+ result);
-        } else if(p == 2){
+            double result = (double) ((x * x) * pi);
+            System.out.println("Площадь круга =" + result);
+        } else if (p == 2) {
             Scanner s = new Scanner(System.in);
             Scanner h = new Scanner(System.in);
             System.out.println("Введите длину высоты");
@@ -36,8 +37,5 @@ public class Culculeted {
             double result = (double) (z * x * y);
             System.out.println("Площадь треугольника =" + result);
         }
-
-
-
     }
 }

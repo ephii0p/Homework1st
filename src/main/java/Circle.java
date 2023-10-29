@@ -6,6 +6,7 @@ public class Circle {
         System.out.println("Введите длину радиуса");
         int x = s.nextInt();
         double pi = Math.PI;
-        double result = (double) ((x*x)*pi);
-        System.out.println("Площадь круга ="+ result);
-}}
+        double result = (double) ((x * x) * pi);
+        System.out.println("Площадь круга =" + result);
+    }
+}
