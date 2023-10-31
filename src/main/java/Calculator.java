@@ -17,6 +17,7 @@ public class Calculator {
             Scanner s = new Scanner(System.in);
             System.out.println("Введите длину стороны");
             double x = s.nextDouble();
+
             double result = x * x;
             System.out.println("Площадь квадрата =" + result);
         } else if (p == 1) {
@@ -24,6 +25,7 @@ public class Calculator {
             System.out.println("Введите длину радиуса");
             double x = s.nextDouble();
             double pi = Math.PI;
+
             double result = (double) ((x * x) * pi);
             System.out.println("Площадь круга =" + result);
         } else if (p == 2) {
@@ -31,9 +33,11 @@ public class Calculator {
             Scanner h = new Scanner(System.in);
             System.out.println("Введите длину высоты");
             double x = s.nextDouble();
+
             System.out.println("Введите длину основания");
             double y = h.nextDouble();
             double z = 0.5;
+
             double result = (double) (z * x * y);
             System.out.println("Площадь треугольника =" + result);
         }
