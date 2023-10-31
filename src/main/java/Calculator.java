@@ -8,11 +8,13 @@ public class Calculator {
         strings[1] = "1.круг";
         strings[2] = "2.треугольник";
         strings[3] = "3.квадрат";
+
         for (int i = 0; i < strings.length; i++) {
             System.out.println(strings[i]);
         }
         Scanner j = new Scanner(System.in);
         int p = j.nextInt();
+
         if (p == 3) {
             Scanner s = new Scanner(System.in);
             System.out.println("Введите длину стороны");
